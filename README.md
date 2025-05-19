@@ -8,9 +8,9 @@
 🚀 Kitap ekleme, listeleme, güncelleme ve silme özellikleri var.
 
 ⚙️ **node_modules klasörü repoda yoktur!**  
-Modülleri aşağıdaki linkten indirip projenin kök dizinine çıkarmanız gerekiyor:  
-👇🏻 👇🏻 👇🏻 👇🏻
-(https://mega.nz/file/bIZUEIiD#NMZFFqz1l8RjQa3Jm5CCrb_sykT2d_CrpMibGdoq7qk)
+Modülleri aşağıdaki linkten indirip projenin kök dizinine çıkarmanız gerekiyor: ⬇️  
+
+[Modüller İndir](https://mega.nz/file/bIZUEIiD#NMZFFqz1l8RjQa3Jm5CCrb_sykT2d_CrpMibGdoq7qk) 
 
 Alternatif olarak terminalde proje klasöründe `npm install` komutunu çalıştırarak da modülleri otomatik indirebilirsiniz.
 
