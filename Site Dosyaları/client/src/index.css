@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 20 5.9% 15%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 35 91.4% 57.6%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 98%;
+  --ring: 20 14.3% 4.1%;
+  --chart-1: 207 90% 54%;
+  --chart-2: 35 91.4% 57.6%;
+  --chart-3: 0 84.2% 60.2%;
+  --chart-4: 93 76% 49%;
+  --chart-5: 252 94% 67%;
+  --sidebar-background: 20 5.9% 15%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 207 90% 54%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 60 4.8% 95.9%;
+  --sidebar-accent-foreground: 24 9.8% 10%;
+  --sidebar-border: 240 3.7% 25.9%;
+  --sidebar-ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 35 91.4% 57.6%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --chart-1: 207 90% 65%;
+  --chart-2: 35 91.4% 65.6%;
+  --chart-3: 0 84.2% 65.2%;
+  --chart-4: 93 76% 59%;
+  --chart-5: 252 94% 77%;
+  --sidebar-background: 240 3.7% 15.9%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 207 90% 65%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 3.7% 25.9%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-border: 240 3.7% 25.9%;
+  --sidebar-ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .icon-container {
+    @apply w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-2;
+  }
+  
+  .category-card {
+    @apply bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg transition duration-300;
+  }
+  
+  .product-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300;
+  }
+  
+  .product-image-container {
+    @apply relative h-64;
+  }
+  
+  .product-badge {
+    @apply absolute top-0 right-0 text-white text-xs font-bold px-2 py-1 m-2 rounded;
+  }
+  
+  .badge-discount {
+    @apply bg-accent;
+  }
+  
+  .badge-new {
+    @apply bg-success;
+  }
+  
+  .badge-bestseller {
+    @apply bg-primary;
+  }
+  
+  .wishlist-button {
+    @apply absolute bottom-0 right-0 m-2 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow hover:bg-gray-100;
+  }
+  
+  .rating-stars {
+    @apply flex text-yellow-400;
+  }
+  
+  .add-to-cart-button {
+    @apply bg-primary hover:bg-primary/90 text-white px-3 py-1 rounded-lg text-sm;
+  }
+}
