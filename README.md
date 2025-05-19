@@ -9,7 +9,8 @@
 
 ⚙️ **node_modules klasörü repoda yoktur!**  
 Modülleri aşağıdaki linkten indirip projenin kök dizinine çıkarmanız gerekiyor:  
-[Modüller İndir]((https://mega.nz/file/bIZUEIiD#NMZFFqz1l8RjQa3Jm5CCrb_sykT2d_CrpMibGdoq7qk))  
+👇🏻 👇🏻 👇🏻 👇🏻
+(https://mega.nz/file/bIZUEIiD#NMZFFqz1l8RjQa3Jm5CCrb_sykT2d_CrpMibGdoq7qk)
 
 Alternatif olarak terminalde proje klasöründe `npm install` komutunu çalıştırarak da modülleri otomatik indirebilirsiniz.
 
@@ -27,4 +28,3 @@ npm install
 npm start
 Tarayıcıda http://localhost:3000 adresini açın.
 
-💻 Açık kaynak destekçisi | Kod yaz, paylaş, öğren!
